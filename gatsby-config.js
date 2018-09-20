@@ -10,7 +10,7 @@ module.exports = {
         name: 'Testing a new front features.',
         short_name: 'features',
         start_url: '/',
-        background_color: '#ffffff',
+        background_color: '#fff',
         theme_color: '#663399',
         orientation: 'portrait',
         display: 'standalone',
