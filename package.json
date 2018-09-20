@@ -1,0 +1,37 @@
+{
+  "name": "testing-a-new-features",
+  "description": "My personal presentation project",
+  "version": "1.2.0",
+  "author": "Oleg Sherbakov <oleg.sherbakov.85@gmail.com>",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "gatsby": "^2.0.6",
+    "gatsby-link": "^2.0.1",
+    "gatsby-plugin-manifest": "^2.0.2",
+    "gatsby-plugin-offline": "^2.0.5",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "react-dom": "^16.5.2",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.0",
+    "prettier": "^1.14.3"
+  },
+  "keywords": [
+    "gatsby",
+    "react",
+    "js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"src/**/*.{js,css}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://github.com/olegsherbakov/olegsherbakov.github.io.git -b master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olegsherbakov/gh-pages.git"
+  }
+}

@@ -1,0 +1,29 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 430px;
+  font: 350% Helvetica, Arial, sans-serif;
+  transition: background-color 1.3s linear, color 1.3s linear;
+  user-select: none;
+  color: rebeccapurple;
+}
+
+.HighlightText {
+  color: #ffff;
+}
+
+.Text {
+  position: relative;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: top 0.1s linear, left 0.1s linear, font-size 0.1s;
+}
+
+.Container:hover {
+  font-size: 450%; /* TODO: had bug with loose hover after click :( */
+  border: 5px solid red;
+}
