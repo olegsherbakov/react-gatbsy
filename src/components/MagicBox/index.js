@@ -110,10 +110,8 @@ class MagicBox extends React.Component {
     const maxDeviationX = 120
     const maxDeviationY = 60
     // scale
-    const offsetX = pageX - this._pulling.x
-    const offsetY = pageY - this._pulling.y
-    const pullingX = this._pulling.x ? Math.abs(offsetX) : 0
-    const pullingY = this._pulling.y ? Math.abs(offsetY) : 0
+    const pullingX = this._pulling.x ? Math.abs(pageX - this._pulling.x) : 0
+    const pullingY = this._pulling.y ? Math.abs(pageY - this._pulling.y) : 0
     const scaleX = pullingX ? (pullingX + 64) / 100 : 0
     const scaleY = pullingY ? (pullingY + 64) / 100 : 0
 

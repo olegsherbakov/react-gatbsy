@@ -24,6 +24,5 @@
 }
 
 .Container:hover {
-  font-size: 450%; /* TODO: had bug with loose hover after click :( */
-  border: 5px solid red;
+  /* font-size: 450%; TODO: had bug with loose hover after click :( */
 }
