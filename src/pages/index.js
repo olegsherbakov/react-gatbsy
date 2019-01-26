@@ -19,7 +19,9 @@ const IndexPage = () => (
       <p>See also:</p>
       <ul>
         <li>
-          <a href="https://olegsherbakov.github.io/board/">DnD Agile Board (angular, typescript)</a>
+          <a href="https://olegsherbakov.github.io/board/">
+            DnD Agile Board (angular, typescript)
+          </a>
         </li>
         <li>
           <a href="https://olegsherbakov.github.io/employees-list/">
@@ -27,7 +29,9 @@ const IndexPage = () => (
           </a>
         </li>
         <li>
-          <a href="https://olegsherbakov.github.io/jstest/">Simple JS test (vue)</a>
+          <a href="https://olegsherbakov.github.io/jstest/">
+            Simple JS test (vue)
+          </a>
         </li>
       </ul>
     </div>
