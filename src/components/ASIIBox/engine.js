@@ -7,7 +7,7 @@ export const getRows = ({ N = 88 } = {}) => {
   const matrix = range(N * N).reduce((acc, i) => {
     const coords = extract(i, N)
 
-    if (coords[0] > 2 && coords[0] < 40 && coords[1] > -1 && coords[1] < 89) {
+    if (coords[0] > 6 && coords[0] < 45 && coords[1] > -1 && coords[1] < 89) {
       acc.push(coords)
     }
 
