@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './a.module.css'
+import styles from 'styles/main.module.css'
 
 class Pulse extends React.Component {
   render() {

@@ -2,7 +2,7 @@ import React from 'react'
 import classNames from 'classnames'
 
 import Pulse from 'components/Pulse'
-import styles from './a.module.css'
+import styles from 'styles/main.module.css'
 
 class MagicBox extends React.Component {
   constructor(props) {

@@ -1,3 +1,8 @@
+.Canvas {
+  display: flex;
+  margin: 0 auto;
+}
+
 .Container {
   display: flex;
   align-items: center;
@@ -23,6 +28,29 @@
   transition: top 0.1s linear, left 0.1s linear, font-size 0.1s;
 }
 
-.Container:hover {
-  /* font-size: 450%; TODO: had bug with loose hover after click :( */
+.Item {
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: 0 0 0 0;
+  border-radius: 0;
+  background: yellow;
+  pointer-events: none;
+  animation: explode 0.7s ease-in-out, fadeout 0.5s linear;
+}
+
+@keyframes explode {
+  to {
+    width: 3000px;
+    height: 3000px;
+    margin: -1500px 0 0 -1500px;
+    border-radius: 1500px;
+    opacity: 0.1;
+  }
+}
+
+@keyframes fadeout {
+  to {
+    display: none;
+  }
 }
