@@ -1,7 +1,7 @@
 {
   "name": "testing-a-new-features",
   "description": "My personal presentation project",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "author": "Oleg Sherbakov <oleg.sherbakov.85@gmail.com>",
   "dependencies": {
     "classnames": "^2.2.6",
@@ -10,6 +10,8 @@
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0"
