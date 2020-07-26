@@ -55,6 +55,7 @@ class MagicBox extends React.Component {
         onMouseMove={this._onMouseMove}
         onMouseUp={this._onMouseUp}
         onClick={this._onClick}
+        aria-hidden="true"
       >
         <span className={styles.Text} style={textStyle}>
           {questMessage}
