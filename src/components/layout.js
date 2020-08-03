@@ -2,6 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import favicon from '../assets/favicon.ico'
 import Header from 'components/header'
 import Footer from 'components/footer'
 
@@ -36,7 +37,9 @@ const Layout = ({ children }) => (
               content: 'something good i hope',
             },
           ]}
-        />
+        >
+          <link rel="icon" href={favicon} />
+        </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
